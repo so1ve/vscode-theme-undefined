@@ -1,0 +1,58 @@
+{
+  "name": "theme-undefined",
+  "displayName": "Undefined Theme",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.5.0",
+  "publisher": "so1ve",
+  "description": "Undefined theme for VS Code",
+  "keywords": [
+    "theme",
+    "undefined",
+    "dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/so1ve/vscode-theme-undefined"
+  },
+  "bugs": {
+    "url": "https://github.com/so1ve/vscode-theme-undefined/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "files": [
+    "themes"
+  ],
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Undefined",
+        "uiTheme": "vs-dark",
+        "path": "./themes/undefined.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsx src/index.ts",
+    "dev": "nodemon --watch src -e ts --exec \"tsx src/index.ts\"",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp --all && vsce publish --no-dependencies",
+    "vscode:prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@so1ve/eslint-config": "^0.88.0",
+    "@types/node": "^18.16.7",
+    "@vscode/vsce": "^2.19.0",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.40.0",
+    "nodemon": "^2.0.22",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "preview": true
+}

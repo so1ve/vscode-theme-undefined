@@ -1,0 +1,7 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.eslintrc
+/node_modules/
+/pnpm-lock.yaml
+/src/
