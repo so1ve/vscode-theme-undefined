@@ -185,7 +185,7 @@ export default function getTheme() {
       "terminal.ansiBrightRed": undef("red"),
       "terminal.ansiBrightWhite": "#ffffff",
       "terminal.ansiBrightYellow": undef("yellow"),
-      "terminal.ansiBlack": UndefinedTheme.foreground,
+      "terminal.ansiBlack": "#3f4451",
       "terminal.ansiBlue": undef("blue"),
       "terminal.ansiCyan": undef("cyan"),
       "terminal.ansiGreen": undef("green"),
