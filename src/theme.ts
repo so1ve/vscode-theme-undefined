@@ -328,7 +328,6 @@ export default function getTheme() {
       {
         scope: ["keyword", "storage.type.class.jsdoc"],
         settings: {
-          fontStyle: "bold",
           foreground: undef("keyword"),
         },
       },

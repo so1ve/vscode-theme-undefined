@@ -292,7 +292,6 @@
         "storage.type.class.jsdoc"
       ],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#4d9375"
       }
     },
