@@ -43,6 +43,7 @@
     "lint:fix": "eslint --fix .",
     "prepublishOnly": "npm run build",
     "release": "bumpp --all && vsce publish --no-dependencies",
+    "typecheck": "tsc --noEmit",
     "vscode:prepublish": "npm run build"
   },
   "devDependencies": {
