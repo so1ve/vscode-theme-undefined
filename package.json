@@ -1,6 +1,7 @@
 {
   "name": "theme-undefined",
   "displayName": "Undefined Theme",
+  "preview": true,
   "version": "0.2.2",
   "packageManager": "pnpm@8.5.1",
   "publisher": "so1ve",
@@ -55,6 +56,5 @@
     "nodemon": "^2.0.22",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
-  },
-  "preview": true
+  }
 }
