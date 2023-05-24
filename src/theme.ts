@@ -319,7 +319,6 @@ export default function getTheme() {
       {
         scope: "entity.name.function",
         settings: {
-          fontStyle: "bold",
           foreground: undef("function"),
         },
       },
