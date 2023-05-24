@@ -280,7 +280,6 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#80a665"
       }
     },
