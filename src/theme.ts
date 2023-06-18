@@ -1,4 +1,4 @@
-import { UndefinedTheme, colors } from "./colors";
+import { colors, UndefinedTheme } from "./colors";
 import { toArray } from "./utils";
 
 const NAME = "Undefined";
