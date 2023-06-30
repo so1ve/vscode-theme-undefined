@@ -7,9 +7,9 @@
   "publisher": "so1ve",
   "description": "Undefined theme for VS Code",
   "keywords": [
+    "dark",
     "theme",
-    "undefined",
-    "dark"
+    "undefined"
   ],
   "repository": {
     "type": "git",
