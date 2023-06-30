@@ -7,9 +7,9 @@
   "publisher": "so1ve",
   "description": "Undefined theme for VS Code",
   "keywords": [
+    "dark",
     "theme",
-    "undefined",
-    "dark"
+    "undefined"
   ],
   "repository": {
     "type": "git",
@@ -48,7 +48,7 @@
     "vscode:prepublish": "npm run build"
   },
   "devDependencies": {
-    "@so1ve/eslint-config": "^0.106.0",
+    "@so1ve/eslint-config": "^0.107.0",
     "@types/node": "^18.16.18",
     "@vscode/vsce": "^2.19.0",
     "bumpp": "^9.1.1",
