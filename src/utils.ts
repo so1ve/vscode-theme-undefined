@@ -1,2 +1,2 @@
-export const toArray = <T>(arr: T | T[]): T[] =>
-  Array.isArray(arr) ? arr : [arr];
+export const toArray = <T>(array: T | T[]): T[] =>
+  Array.isArray(array) ? array : [array];
