@@ -103,6 +103,7 @@ export const UndefinedTheme = {
   primary: "#4d9375",
 
   foreground: "#dbd7caee",
+  terminalForeground: "#dbd7ca",
   activeForeground: "#a8a29e",
   secondaryForeground: "#dedcd590",
   ignored: "#dedcd560",

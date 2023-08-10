@@ -191,7 +191,7 @@ export default function getTheme() {
       "terminal.ansiGreen": undef("green"),
       "terminal.ansiMagenta": undef("magenta"),
       "terminal.ansiRed": undef("red"),
-      "terminal.ansiWhite": UndefinedTheme.foreground,
+      "terminal.ansiWhite": UndefinedTheme.terminalForeground,
       "terminal.ansiYellow": undef("yellow"),
 
       "gitDecoration.addedResourceForeground": undef("green"),
