@@ -1,60 +1,62 @@
 {
-  "name": "theme-undefined",
-  "displayName": "Undefined Theme",
-  "preview": true,
-  "version": "0.3.0",
-  "packageManager": "pnpm@8.6.12",
-  "publisher": "so1ve",
-  "description": "Undefined theme for VS Code",
-  "keywords": [
-    "dark",
-    "theme",
-    "undefined"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/so1ve/vscode-theme-undefined"
-  },
-  "bugs": {
-    "url": "https://github.com/so1ve/vscode-theme-undefined/issues"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "license": "MIT",
-  "files": [
-    "themes"
-  ],
-  "engines": {
-    "vscode": "^1.43.0"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Undefined",
-        "uiTheme": "vs-dark",
-        "path": "./themes/undefined.json"
-      }
-    ]
-  },
-  "scripts": {
-    "build": "tsx src/index.ts",
-    "dev": "nodemon --watch src -e ts --exec \"tsx src/index.ts\"",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "prepublishOnly": "npm run build",
-    "release": "bumpp --all && vsce publish --no-dependencies",
-    "typecheck": "tsc --noEmit",
-    "vscode:prepublish": "npm run build"
-  },
-  "devDependencies": {
-    "@so1ve/eslint-config": "^0.110.0",
-    "@types/node": "^18.16.18",
-    "@vscode/vsce": "^2.19.0",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.43.0",
-    "nodemon": "^2.0.22",
-    "tsx": "^3.12.7",
-    "typescript": "^5.1.3"
-  }
+	"name": "theme-undefined",
+	"displayName": "Undefined Theme",
+	"preview": true,
+	"version": "0.3.0",
+	"packageManager": "pnpm@8.6.12",
+	"publisher": "so1ve",
+	"description": "Undefined theme for VS Code",
+	"keywords": [
+		"dark",
+		"theme",
+		"undefined"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/so1ve/vscode-theme-undefined"
+	},
+	"bugs": {
+		"url": "https://github.com/so1ve/vscode-theme-undefined/issues"
+	},
+	"categories": [
+		"Themes"
+	],
+	"license": "MIT",
+	"files": [
+		"themes"
+	],
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Undefined",
+				"uiTheme": "vs-dark",
+				"path": "./themes/undefined.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "tsx src/index.ts",
+		"dev": "nodemon --watch src -e ts --exec \"tsx src/index.ts\"",
+		"lint": "eslint . && prettier . --check",
+		"lint:fix": "eslint --fix . && prettier . --write",
+		"prepublishOnly": "npm run build",
+		"release": "bumpp --all && vsce publish --no-dependencies",
+		"typecheck": "tsc --noEmit",
+		"vscode:prepublish": "npm run build"
+	},
+	"devDependencies": {
+		"@so1ve/eslint-config": "^0.119.1",
+		"@so1ve/prettier-config": "^0.119.1",
+		"@types/node": "^18.16.18",
+		"@vscode/vsce": "^2.19.0",
+		"bumpp": "^9.1.1",
+		"eslint": "^8.43.0",
+		"nodemon": "^2.0.22",
+		"prettier": "^3.0.1",
+		"tsx": "^3.12.7",
+		"typescript": "^5.1.3"
+	}
 }
