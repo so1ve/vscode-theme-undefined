@@ -652,7 +652,8 @@
     },
     {
       "scope": [
-        "markup.underline.link.markdown"
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
       ],
       "settings": {
         "foreground": "#dedcd590",
@@ -1151,6 +1152,10 @@
     },
     {
       "token": "markup.underline.link.markdown",
+      "foreground": "dedcd590"
+    },
+    {
+      "token": "markup.underline.link.image.markdown",
       "foreground": "dedcd590"
     },
     {
