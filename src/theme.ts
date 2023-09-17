@@ -659,7 +659,7 @@ export default function getTheme() {
 				},
 			},
 			{
-				scope: ["markup.underline.link.markdown"],
+				scope: ["markup.underline.link.markdown",'markup.underline.link.image.markdown',],
 				settings: {
 					foreground: secondaryForeground,
 					fontStyle: "underline",
