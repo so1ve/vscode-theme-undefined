@@ -39,7 +39,7 @@
 	},
 	"scripts": {
 		"build": "tsx src/index.ts",
-		"dev": "nodemon --watch src -e ts --exec \"tsx src/index.ts\"",
+		"dev": "tsx watch src/index.ts",
 		"lint": "eslint . && prettier . --check",
 		"lint:fix": "eslint --fix . && prettier . --write",
 		"prepublishOnly": "npm run build",
@@ -54,7 +54,6 @@
 		"@vscode/vsce": "^2.19.0",
 		"bumpp": "^9.1.1",
 		"eslint": "^8.43.0",
-		"nodemon": "^2.0.22",
 		"prettier": "^3.0.1",
 		"tsx": "^3.12.7",
 		"typescript": "^5.1.3"
