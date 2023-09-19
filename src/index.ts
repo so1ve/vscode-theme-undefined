@@ -6,7 +6,7 @@ fs.mkdir("./themes", { recursive: true })
 	.then(() =>
 		fs.writeFile(
 			"./themes/undefined.json",
-			`${JSON.stringify(getTheme(), null, '\t')}\n`,
+			`${JSON.stringify(getTheme(), null, "\t")}\n`,
 		),
 	)
 	.catch(() => process.exit(1));
