@@ -17,8 +17,8 @@
 				},
 				"background": {
 					"activeOnStart": true,
-					"beginsPattern": "starting",
-					"endsPattern": "clean exit"
+					"beginsPattern": "Building",
+					"endsPattern": "Built"
 				}
 			},
 			"label": "npm: dev"
