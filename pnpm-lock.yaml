@@ -7,10 +7,10 @@ settings:
 devDependencies:
   '@so1ve/eslint-config':
     specifier: 1.0.0-alpha.18
-    version: 1.0.0-alpha.18(eslint-plugin-import@2.29.0)(eslint@8.53.0)(prettier@3.0.3)(typescript@5.2.2)
+    version: 1.0.0-alpha.18(eslint-plugin-import@2.29.0)(eslint@8.53.0)(prettier@3.1.0)(typescript@5.2.2)
   '@so1ve/prettier-config':
     specifier: 1.0.0-alpha.18
-    version: 1.0.0-alpha.18(prettier@3.0.3)
+    version: 1.0.0-alpha.18(prettier@3.1.0)
   '@types/node':
     specifier: ^18.16.18
     version: 18.18.9
@@ -25,7 +25,7 @@ devDependencies:
     version: 8.53.0
   prettier:
     specifier: ^3.0.1
-    version: 3.0.3
+    version: 3.1.0
   tsx:
     specifier: ^3.12.7
     version: 3.14.0
@@ -452,7 +452,7 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@so1ve/eslint-config@1.0.0-alpha.18(eslint-plugin-import@2.29.0)(eslint@8.53.0)(prettier@3.0.3)(typescript@5.2.2):
+  /@so1ve/eslint-config@1.0.0-alpha.18(eslint-plugin-import@2.29.0)(eslint@8.53.0)(prettier@3.1.0)(typescript@5.2.2):
     resolution: {integrity: sha512-0xaPoJu9yVKc8vJAu1MxxDeMSXNvnx5Dyf/aKyI6c67NfgPLCIC+gMVh0dksNarqWuvdW8+g8Ze9yMRUblggDg==}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -497,7 +497,7 @@ packages:
       globals: 13.23.0
       jsonc-eslint-parser: 2.4.0
       local-pkg: 0.5.0
-      prettier: 3.0.3
+      prettier: 3.1.0
       toml-eslint-parser: 0.6.1
       vue-eslint-parser: 9.3.2(eslint@8.53.0)
       yaml-eslint-parser: 1.2.2
@@ -530,24 +530,24 @@ packages:
       - typescript
     dev: true
 
-  /@so1ve/prettier-config@1.0.0-alpha.18(prettier@3.0.3):
+  /@so1ve/prettier-config@1.0.0-alpha.18(prettier@3.1.0):
     resolution: {integrity: sha512-fY90Lf65a0uw+/bh3n/AGavwho9B8PQ8ZnMD8tsI3uk5y9PtzjKZyAZOld09U8jv4EWHIK5U9wxcCQEFqHponw==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      '@so1ve/prettier-plugin-toml': 1.0.0-alpha.18(prettier@3.0.3)
-      prettier: 3.0.3
+      '@so1ve/prettier-plugin-toml': 1.0.0-alpha.18(prettier@3.1.0)
+      prettier: 3.1.0
       prettier-plugin-astro: 0.12.1
-      prettier-plugin-curly-and-jsdoc: 1.0.0-alpha.18(prettier@3.0.3)
-      prettier-plugin-pkgsort: 0.2.1(prettier@3.0.3)
+      prettier-plugin-curly-and-jsdoc: 1.0.0-alpha.18(prettier@3.1.0)
+      prettier-plugin-pkgsort: 0.2.1(prettier@3.1.0)
     dev: true
 
-  /@so1ve/prettier-plugin-toml@1.0.0-alpha.18(prettier@3.0.3):
+  /@so1ve/prettier-plugin-toml@1.0.0-alpha.18(prettier@3.1.0):
     resolution: {integrity: sha512-EUerMs9c3k4sHSvCGcemfOa5UK8vvS+IuXTqdSjz3zxsYEXO8/RI3JDLIKyAplo2Hpgr6WMJfPIwy4XARWAlCg==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.0.3
+      prettier: 3.1.0
     dev: true
 
   /@types/acorn@4.0.6:
@@ -4424,29 +4424,29 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.2
-      prettier: 3.0.3
+      prettier: 3.1.0
       sass-formatter: 0.7.8
     dev: true
 
-  /prettier-plugin-curly-and-jsdoc@1.0.0-alpha.18(prettier@3.0.3):
+  /prettier-plugin-curly-and-jsdoc@1.0.0-alpha.18(prettier@3.1.0):
     resolution: {integrity: sha512-8nrxX+g5hIQ4COjfKk2gsByzl3ojJPIk2rAcM9zTtLHn+UGCpg9QlEheEliNg4PLK+wJVEHkVvzTYbwUssfC6Q==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.0.3
+      prettier: 3.1.0
     dev: true
 
-  /prettier-plugin-pkgsort@0.2.1(prettier@3.0.3):
+  /prettier-plugin-pkgsort@0.2.1(prettier@3.1.0):
     resolution: {integrity: sha512-/k5MIw84EhgoH7dmq4+6ozHjJ0VYbxbw17g4C+WPGHODkLivGwJoA6U1YPR/KObyRDMQJHXAfXKu++9smg7Jyw==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.0.3
+      prettier: 3.1.0
       prettier-package-json: 2.8.0
     dev: true
 
-  /prettier@3.0.3:
-    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+  /prettier@3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
