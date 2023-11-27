@@ -111,6 +111,7 @@ export const UndefinedTheme = {
 	background: "#262626",
 	activeBackground: "#292929",
 	border: "#212221",
+	cellBorder:'#2c2c2c',
 
 	comment: "#758575dd",
 	string: "#c98a7d",

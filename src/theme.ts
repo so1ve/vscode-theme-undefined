@@ -12,6 +12,7 @@ export default function getTheme() {
 	const activeForeground = undef("activeForeground");
 	const primary = undef("primary");
 
+	const cellBorder = undef("cellBorder");
 	const border = undef("border");
 	const background = undef("background");
 	const activeBackground = undef("activeBackground");
@@ -246,6 +247,8 @@ export default function getTheme() {
 			"editorStickyScrollHover.background": activeBackground,
 
 			"menu.separatorBackground": border,
+
+			"notebook.cellBorderColor": cellBorder,
 		},
 		semanticHighlighting: true,
 		semanticTokenColors: {

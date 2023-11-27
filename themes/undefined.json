@@ -196,7 +196,8 @@
 		"editorInlayHint.background": "#00000000",
 		"editorStickyScroll.background": "#292929",
 		"editorStickyScrollHover.background": "#292929",
-		"menu.separatorBackground": "#212221"
+		"menu.separatorBackground": "#212221",
+		"notebook.cellBorderColor": "#2c2c2c"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
