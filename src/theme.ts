@@ -158,8 +158,8 @@ export default function getTheme() {
 			"editor.inactiveSelectionBackground": selectionBackgroundInActive,
 			"editor.selectionBackground": selectionBackground,
 			"editor.selectionHighlightBackground": selectionBackgroundInActive,
-			"editor.wordHighlightBackground": "#1c6b4805",
-			"editor.wordHighlightStrongBackground": "#1c6b4810",
+			"editor.wordHighlightBackground": "#1c6b4825",
+			"editor.wordHighlightStrongBackground": "#1c7b4835",
 			"editorBracketMatch.background": "#4d937520",
 
 			"diffEditor.insertedTextBackground": "#4d937522",
