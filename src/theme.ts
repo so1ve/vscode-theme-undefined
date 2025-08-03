@@ -257,6 +257,7 @@ export default function getTheme() {
 			interface: undef("interface"),
 			type: undef("interface"),
 			class: undef("class"),
+			component: undef("class")
 		},
 		tokenColors: [
 			{
