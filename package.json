@@ -2,7 +2,7 @@
 	"name": "theme-undefined",
 	"displayName": "Undefined Theme",
 	"preview": true,
-	"version": "0.3.4",
+	"version": "0.4.0",
 	"packageManager": "pnpm@10.13.1",
 	"publisher": "so1ve",
 	"description": "Undefined theme for VS Code",
