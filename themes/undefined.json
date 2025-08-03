@@ -124,8 +124,8 @@
 		"editor.inactiveSelectionBackground": "#eeeeee08",
 		"editor.selectionBackground": "#eeeeee15",
 		"editor.selectionHighlightBackground": "#eeeeee08",
-		"editor.wordHighlightBackground": "#1c6b4805",
-		"editor.wordHighlightStrongBackground": "#1c6b4810",
+		"editor.wordHighlightBackground": "#1c6b4825",
+		"editor.wordHighlightStrongBackground": "#1c7b4835",
 		"editorBracketMatch.background": "#4d937520",
 		"diffEditor.insertedTextBackground": "#4d937522",
 		"diffEditor.removedTextBackground": "#ab595922",
@@ -205,7 +205,8 @@
 		"property": "#b8a965",
 		"interface": "#5d99a9",
 		"type": "#5d99a9",
-		"class": "#7f8ac7"
+		"class": "#7f8ac7",
+		"component": "#7f8ac7"
 	},
 	"tokenColors": [
 		{
