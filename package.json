@@ -3,7 +3,7 @@
 	"displayName": "Undefined Theme",
 	"preview": true,
 	"version": "0.4.0",
-	"packageManager": "pnpm@10.13.1",
+	"packageManager": "pnpm@10.14.0",
 	"publisher": "so1ve",
 	"description": "Undefined theme for VS Code",
 	"keywords": [
@@ -48,8 +48,8 @@
 		"vscode:prepublish": "npm run build"
 	},
 	"devDependencies": {
-		"@so1ve/eslint-config": "3.7.0",
-		"@so1ve/prettier-config": "3.7.0",
+		"@so1ve/eslint-config": "3.8.1",
+		"@so1ve/prettier-config": "3.8.1",
 		"@types/node": "^24.0.14",
 		"@vscode/vsce": "^3.6.0",
 		"bumpp": "^10.2.0",
