@@ -430,6 +430,12 @@ export default function getTheme() {
 				},
 			},
 			{
+				scope: ["comment", "keyword", "storage"],
+				settings: {
+					fontStyle: "italic",
+				},
+			},
+			{
 				scope: "invalid.broken",
 				settings: {
 					fontStyle: "italic",
