@@ -327,7 +327,11 @@ export default function getTheme() {
 				},
 			},
 			{
-				scope: ["keyword", "storage.type.class.jsdoc"],
+				scope: [
+					"keyword",
+					"storage.type.class.jsdoc",
+					"punctuation.definition.template-expression",
+				],
 				settings: {
 					foreground: undef("keyword"),
 				},
