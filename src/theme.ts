@@ -162,8 +162,8 @@ export default function getTheme() {
 			"editor.wordHighlightStrongBackground": "#1c7b4835",
 			"editorBracketMatch.background": "#4d937520",
 
-			"diffEditor.insertedTextBackground": "#4d937522",
-			"diffEditor.removedTextBackground": "#ab595922",
+			"diffEditor.insertedTextBackground": "#4d937550",
+			"diffEditor.removedTextBackground": "#ab595950",
 
 			"scrollbar.shadow": "#0000",
 			"scrollbarSlider.background": undef("faded"),
