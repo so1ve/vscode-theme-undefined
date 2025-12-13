@@ -398,6 +398,16 @@
 			}
 		},
 		{
+			"scope": [
+				"comment",
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "invalid.broken",
 			"settings": {
 				"fontStyle": "italic",
@@ -939,6 +949,15 @@
 		{
 			"token": "meta.var.expr.ts",
 			"foreground": "cb7676"
+		},
+		{
+			"token": "comment"
+		},
+		{
+			"token": "keyword"
+		},
+		{
+			"token": "storage"
 		},
 		{
 			"token": "invalid.broken",
