@@ -418,6 +418,12 @@
 			}
 		},
 		{
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "invalid.broken",
 			"settings": {
 				"fontStyle": "italic",
@@ -983,6 +989,9 @@
 		},
 		{
 			"token": "storage"
+		},
+		{
+			"token": "keyword.operator"
 		},
 		{
 			"token": "invalid.broken",
