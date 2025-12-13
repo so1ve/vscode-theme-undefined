@@ -257,7 +257,7 @@ export default function getTheme() {
 			interface: undef("interface"),
 			type: undef("interface"),
 			class: undef("class"),
-			component: undef("class")
+			component: undef("class"),
 		},
 		tokenColors: [
 			{
@@ -430,7 +430,7 @@ export default function getTheme() {
 				},
 			},
 			{
-				scope: ["comment", "keyword", "storage"],
+				scope: ["keyword", "storage"],
 				settings: {
 					fontStyle: "italic",
 				},
