@@ -276,6 +276,7 @@ export default function getTheme() {
 					"keyword.operator.type.annotation",
 					"keyword.operator.relational",
 					"keyword.operator.assignment",
+					"keyword.operator.type",
 					"meta.brace",
 					"meta.tag.block.any.html",
 					"meta.tag.inline.any.html",
@@ -283,7 +284,6 @@ export default function getTheme() {
 					"meta.type.annotation",
 					"meta.embedded.block.github-actions-expression",
 					"storage.type.function.arrow",
-					"keyword.operator.type",
 					"meta.objectliteral.ts",
 					"punctuation",
 					"punctuation.definition.string.begin.html.vue",
@@ -524,7 +524,11 @@ export default function getTheme() {
 				},
 			},
 			{
-				scope: ["constant.numeric", "number"],
+				scope: [
+					"keyword.operator.quantifier.regexp",
+					"constant.numeric",
+					"number",
+				],
 				settings: {
 					foreground: undef("number"),
 				},
@@ -689,7 +693,7 @@ export default function getTheme() {
 				},
 			},
 			{
-				scope: ["type.identifier"],
+				scope: ["type.identifier", "constant.other.character-class.regexp"],
 				settings: {
 					foreground: undef("class"),
 				},

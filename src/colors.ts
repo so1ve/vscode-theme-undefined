@@ -122,7 +122,7 @@ export const UndefinedTheme = {
 	operator: "#cb7676",
 	function: "#80a665",
 	constant: "#c99076",
-	class: "#7f8ac7",
+	class: "#6872ab",
 	interface: "#5d99a9",
 	type: "#5DA994",
 	builtin: "#cb7676",
