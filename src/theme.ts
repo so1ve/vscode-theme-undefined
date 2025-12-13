@@ -446,6 +446,12 @@ export default function getTheme() {
 				},
 			},
 			{
+				scope: "keyword.operator",
+				settings: {
+					fontStyle: "",
+				},
+			},
+			{
 				scope: "invalid.broken",
 				settings: {
 					fontStyle: "italic",
