@@ -399,7 +399,6 @@
 		},
 		{
 			"scope": [
-				"comment",
 				"keyword",
 				"storage"
 			],
@@ -949,9 +948,6 @@
 		{
 			"token": "meta.var.expr.ts",
 			"foreground": "cb7676"
-		},
-		{
-			"token": "comment"
 		},
 		{
 			"token": "keyword"
