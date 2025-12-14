@@ -440,7 +440,7 @@ export default function getTheme() {
 				},
 			},
 			{
-				scope: ["keyword", "storage"],
+				scope: ["keyword", "storage", "keyword.operator.expression"],
 				settings: {
 					fontStyle: "italic",
 				},
