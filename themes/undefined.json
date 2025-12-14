@@ -411,7 +411,8 @@
 		{
 			"scope": [
 				"keyword",
-				"storage"
+				"storage",
+				"keyword.operator.expression"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -989,6 +990,9 @@
 		},
 		{
 			"token": "storage"
+		},
+		{
+			"token": "keyword.operator.expression"
 		},
 		{
 			"token": "keyword.operator"
