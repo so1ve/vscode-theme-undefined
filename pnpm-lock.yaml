@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@so1ve/eslint-config':
-        specifier: 3.20.1
-        version: 3.20.1(@typescript-eslint/eslint-plugin@8.49.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@2.6.1))(jiti@2.6.1)(prettier@3.7.4)(typescript@5.9.3)
+        specifier: 3.20.2
+        version: 3.20.2(@typescript-eslint/eslint-plugin@8.49.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@2.6.1))(jiti@2.6.1)(prettier@3.7.4)(typescript@5.9.3)
       '@so1ve/prettier-config':
-        specifier: 3.20.1
-        version: 3.20.1(prettier@3.7.4)
+        specifier: 3.20.2
+        version: 3.20.2(prettier@3.7.4)
       '@types/node':
         specifier: ^24.0.14
         version: 24.10.4
@@ -469,27 +469,27 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@so1ve/eslint-config@3.20.1':
-    resolution: {integrity: sha512-pctNMWeekij+t8p+zuOavO6qCYdzZT9xg0Y1nmGLDjvq7PcXQh17vKhDp4L/EXvvCpCEDExLcGg9oRhutfbRXA==}
+  '@so1ve/eslint-config@3.20.2':
+    resolution: {integrity: sha512-/w1b0qfBJyG0wFznyem8p5jmUN5c9IQgAWHrixzSiZ4gBJ+YA87W1NmN2AnfC9dINA2045J58tkZhUAl9MWI9Q==}
     peerDependencies:
       eslint: ^9.39.1
       prettier: ^3.6.2
 
-  '@so1ve/eslint-plugin-sort-imports@3.20.1':
-    resolution: {integrity: sha512-aCIP9wplTT63MiTGo5vg1CSYiuAK3JOp4iBzoAcJuEKOW+o0CduRSpeGWDR6oTESbK6QlS3DRxmzEG0d8Ssp4A==}
+  '@so1ve/eslint-plugin-sort-imports@3.20.2':
+    resolution: {integrity: sha512-8ir46lJ8mTG5v36CDs1shviRJ1z/LgkhVgY5IddUFQX3m0APE6dl3ezQaBpBDYSj5ZFRDeXYOuXxN+ubu3ydQw==}
     peerDependencies:
       eslint: ^9.39.1
 
-  '@so1ve/eslint-plugin@3.20.1':
-    resolution: {integrity: sha512-Imis8WQjH2QPnIDkozH8KO0gLv9Ivp1Pg/+sh9fA0MPA/PpypSJMT6Uc+y6KP/DSPPVHMQN1UQnmdYVwrLYz9A==}
+  '@so1ve/eslint-plugin@3.20.2':
+    resolution: {integrity: sha512-TQ38KGR82rEK5L+/j9chlTajNyRiBVBqEdDpyHmf7KESOZ0vZcoEYmxCwwzLkG/6a6DDKVjXiBhIrful5SjdJA==}
 
-  '@so1ve/prettier-config@3.20.1':
-    resolution: {integrity: sha512-TS7/SNmtWIH9KJYp+Lt5tvMN7FrLvkT9f6NDlbJvyGbHhvs8bTLQXUE7c7KBWftNtZrQYxG4JuP/17SJdn6K2w==}
+  '@so1ve/prettier-config@3.20.2':
+    resolution: {integrity: sha512-OSUwAIGyEaw0AiE4Gm1v/mYT3QwbyGPeUGu6DryvcAgbyAV+HlPh4AZf1d2vEaonirLRskhu0hy7daxwwtDZhA==}
     peerDependencies:
       prettier: ^3.6.2
 
-  '@so1ve/prettier-plugin-toml@3.20.1':
-    resolution: {integrity: sha512-Xb4jTCiEVOW3L9+986e43dQ1eFC5FzIgUa/A6G1uK+EaVJBi8Gehp+jcfZGaNgrLAbANHc57pQxtdVNWuSlkig==}
+  '@so1ve/prettier-plugin-toml@3.20.2':
+    resolution: {integrity: sha512-6V+70qN5sZqpgo5ECHgnw5ucE8eD6eETabWMi72M1P8eBEe2CCIj1RieFWiwiztFGVKW/ZdzR3uragLj4nyySg==}
     peerDependencies:
       prettier: ^3.6.2
 
@@ -3659,13 +3659,13 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@so1ve/eslint-config@3.20.1(@typescript-eslint/eslint-plugin@8.49.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@2.6.1))(jiti@2.6.1)(prettier@3.7.4)(typescript@5.9.3)':
+  '@so1ve/eslint-config@3.20.2(@typescript-eslint/eslint-plugin@8.49.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@2.6.1))(jiti@2.6.1)(prettier@3.7.4)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.39.2(jiti@2.6.1))
       '@html-eslint/eslint-plugin': 0.49.0(eslint@9.39.2(jiti@2.6.1))(jiti@2.6.1)
       '@html-eslint/parser': 0.49.0(jiti@2.6.1)
-      '@so1ve/eslint-plugin': 3.20.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
-      '@so1ve/eslint-plugin-sort-imports': 3.20.1(eslint@9.39.2(jiti@2.6.1))
+      '@so1ve/eslint-plugin': 3.20.2(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+      '@so1ve/eslint-plugin-sort-imports': 3.20.2(eslint@9.39.2(jiti@2.6.1))
       '@stylistic/eslint-plugin': 5.6.1(eslint@9.39.2(jiti@2.6.1))
       '@typescript-eslint/parser': 8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@typescript-eslint/utils': 8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -3723,12 +3723,12 @@ snapshots:
       - typescript
       - vitest
 
-  '@so1ve/eslint-plugin-sort-imports@3.20.1(eslint@9.39.2(jiti@2.6.1))':
+  '@so1ve/eslint-plugin-sort-imports@3.20.2(eslint@9.39.2(jiti@2.6.1))':
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
       natsort: 2.0.3
 
-  '@so1ve/eslint-plugin@3.20.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
+  '@so1ve/eslint-plugin@3.20.2(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/types': 8.49.0
       '@typescript-eslint/utils': 8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -3737,14 +3737,14 @@ snapshots:
       - supports-color
       - typescript
 
-  '@so1ve/prettier-config@3.20.1(prettier@3.7.4)':
+  '@so1ve/prettier-config@3.20.2(prettier@3.7.4)':
     dependencies:
-      '@so1ve/prettier-plugin-toml': 3.20.1(prettier@3.7.4)
+      '@so1ve/prettier-plugin-toml': 3.20.2(prettier@3.7.4)
       prettier: 3.7.4
       prettier-plugin-astro: 0.14.1
       prettier-plugin-pkgsort: 0.3.0(prettier@3.7.4)
 
-  '@so1ve/prettier-plugin-toml@3.20.1(prettier@3.7.4)':
+  '@so1ve/prettier-plugin-toml@3.20.2(prettier@3.7.4)':
     dependencies:
       prettier: 3.7.4
 
