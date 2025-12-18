@@ -51,8 +51,8 @@
 		"vscode:prepublish": "npm run build"
 	},
 	"devDependencies": {
-		"@so1ve/eslint-config": "3.20.1",
-		"@so1ve/prettier-config": "3.20.1",
+		"@so1ve/eslint-config": "3.20.2",
+		"@so1ve/prettier-config": "3.20.2",
 		"@types/node": "^24.0.14",
 		"@vscode/vsce": "^3.6.0",
 		"bumpp": "^10.2.0",
