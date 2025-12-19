@@ -3,7 +3,7 @@
 	"displayName": "Undefined Theme",
 	"preview": true,
 	"version": "1.1.0",
-	"packageManager": "pnpm@10.26.0",
+	"packageManager": "pnpm@10.26.1",
 	"publisher": "so1ve",
 	"description": "Undefined theme for VS Code",
 	"keywords": [
