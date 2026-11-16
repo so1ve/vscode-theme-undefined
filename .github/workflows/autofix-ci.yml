@@ -36,4 +36,4 @@ jobs:
       - name: Lint and fix
         run: nr lint:fix
 
-      - uses: autofix-ci/action@bee19d72e71787c12ca0f29de72f2833e437e4c9
+      - uses: autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27
